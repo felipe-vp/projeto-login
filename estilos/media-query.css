@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* 
+    Todas as demais midias
+
+    Tipical Device Breakpoints
+    ---------------------------
+    Pequenas telas: Até 600px
+    Smartphones: 600px até 768
+    Tablets: 768px até 1024px
+    Laptops: 1025px até 1280px
+    PCs: 1281px até 1440px
+    telas largas: 1441px e acima    
+ 
+*/
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    body{
+        background-image: linear-gradient(#1e1e5a, #f7f7ae, #bc7b02) ;
+    }
+
+    section#login{
+        width: 70vw;
+    }
+
+    section#login > div#imagem{
+        width: 100%;
+        height: 65%;
+        background-position: center center;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    body{
+        background-image: linear-gradient(#1e1e5a, #f7f7ae, #bc7b02) ;
+    }
+    section#login{
+        width: 60vw;
+    }
+    
+    section#login > div#imagem{
+        width: 100%;
+        height: 65%;
+        background-position: center center;
+    }
+}

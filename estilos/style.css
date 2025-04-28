@@ -2,8 +2,9 @@
 
 /*
     Paleta de cores:
-    Verde: #49a09d
-    Lilás: #cf2c82
+    blue: #1e1e5a
+    yellow: #f7f7ae
+    orange:#bc7b02
 */
 
 /* MOBILE FIRST */
@@ -16,7 +17,7 @@
 }
 
 body, html{
-    background-color: #cf2c82;
+    background-color: #b78831 ;
     height: 100vh;
     width: 100vw;
 }
@@ -41,7 +42,7 @@ section#login{
 }
 
 section#login > div#imagem{
-    background-color: #cf2c82;
+    background-color: #5f2c82;
     background-image: url('../imagens/imagem-projeto.jpg');
     height: 200px;
     background-size: cover;
